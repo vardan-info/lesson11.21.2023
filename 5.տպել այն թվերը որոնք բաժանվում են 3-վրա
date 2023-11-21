@@ -1,0 +1,25 @@
+
+// 5.տպել այն թվերը որոնք բաժանվում են 3-վրա
+public class Main {
+    public static void main(String[] args) {
+        int array[][] = {
+                {1, 2, 0, 4},
+                {4, 3, 6, 1},
+                {27, 6, 9, 18},
+        };
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if(array[i][j]%3==0){
+                    sum=array[i][j];
+System.out.println(sum);
+                }
+
+            }
+
+        }
+
+
+    }
+}
+//26
