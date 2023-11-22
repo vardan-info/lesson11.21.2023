@@ -1,8 +1,9 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 import javax.security.sasl.SaslServer;
 
 public class Main {
     public static void main(String[] args) {
-        String[][] Name = new String[5][5];
+ String[][] Name = new String[5][5];
 
         Name[0][0] = "SASS";
         Name[0][1] = "Ani";
@@ -10,10 +11,15 @@ public class Main {
         Name[0][3] = "HTTP";
         Name[0][4] = "XML";
         for (int i = 0; i < Name.length; ++i) {
-            for (int j = 0; j < Name[i].length; ++j) {
-                System.out.println(Name[0][2]);
+            for(int j=0; j<Name[i].length; j++){
+                System.out.print(Name[i][j] + " ");
             }
+            System.out.println();
 
         }
+
+
     }
+
+
 }
